@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  margin-right: auto;
+}
+
+nav a {
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+nav a.active {
+  background: white;
+  border-radius: 5px;
+}
+
+.form-control {
+  width: 100%;
+  max-width: 700px;
+}
+
+.form-control input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.form-control textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+
+}
+
+/* ARTICLES */
+
+.article-container .card {
+  padding: 20px;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.breadCrumps {
+  /* display: inline-block; */
+  text-align: left;
+}
+
+.crump {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.crump::after {
+  content: ">";
+  color: #646cff;
+  font-weight: 800;
+  display: inline-block;
+  margin-left: 5px;
+
+}
